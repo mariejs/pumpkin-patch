@@ -1,0 +1,212 @@
+* {
+    font-family: 'Inter', sans-serif;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 4.5rem !important;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 1.8rem;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+.menu {
+    display: flex;
+    padding-right: 1rem;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50%;
+}
+
+header {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    top: 0;
+    background-color: #FFFFFF;
+    padding: 10px;
+}
+
+li {
+    list-style: none;
+    font-weight: 600;
+}
+
+li a {
+    text-decoration: none;
+}
+
+.cover {
+    background-image: url(./images/coverdark.png);
+    height: 46rem;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.textforcover {
+    color: aliceblue;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-weight: 600;
+}
+
+#subtitleforcover {
+    font-size: 1.4rem;
+    margin-top: -0.7rem;
+}
+
+.mission {
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 8rem;
+    margin-bottom: 8rem; 
+}
+
+.ceoimage {
+    height: 15rem;
+    margin-left: 4rem;
+}
+
+#quote {
+    font-size: 1.2rem;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 4rem;
+}
+
+#productsubtitle {
+    font-size: 1.2rem;
+    margin-top: -0.3rem;
+}
+
+.card1 {
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 3rem;
+    align-items: flex-start;
+}
+
+.card1image {
+width: 45%;
+margin-left: 3rem;
+}
+
+.card2 {
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 3rem;
+    align-items: flex-start;
+}
+
+.card2image {
+    width: 45%;
+    margin-right: 3rem;
+}
+
+.card3 {
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 3rem;
+    align-items: flex-start;
+}
+
+.card3image {
+width: 45%;
+margin-left: 3rem;
+margin-bottom: 6rem;
+}
+
+#cardtext {
+    font-size: 1.1rem;
+}
+
+.meet {
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 6rem;
+    margin-bottom: 3rem; 
+}
+
+#teamsubtitle {
+    font-size: 1.2rem;
+    margin-top: -0.3rem;
+    margin-bottom: 3rem;
+}
+
+.photooftheteam {
+    width: 100%;
+}
+
+.teamcards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6rem; 
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.person1,
+.person2,
+.person3 {
+    flex: 0 0 30%;
+    min-width: 30%;
+}
+
+.booking {
+    text-align: center;
+    background-image: url(./images/booking.png);
+    background-size: cover;
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: aliceblue;
+    font-weight: 600;
+}
+
+.textforbooking {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+p a {
+    text-decoration: none;
+}
