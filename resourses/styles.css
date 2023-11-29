@@ -197,7 +197,7 @@ margin-bottom: 6rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     font-weight: 600;
 }
 
