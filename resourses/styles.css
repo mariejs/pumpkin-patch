@@ -41,6 +41,7 @@ header {
     top: 0;
     background-color: #FFFFFF;
     padding: 10px;
+    height: 3.5rem;
 }
 
 li {
@@ -85,8 +86,9 @@ a:hover {
     align-items: center;
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 8rem;
-    margin-bottom: 8rem; 
+    margin-top: 4.5rem;
+    margin-bottom: 4.5rem; 
+    padding-top: 3.5rem;
 }
 
 .ceoimage {
@@ -105,6 +107,7 @@ a:hover {
     margin-left: 20%;
     margin-right: 20%;
     margin-bottom: 4rem;
+    padding-top: 3.5rem;
 }
 
 #productsubtitle {
@@ -149,7 +152,7 @@ margin-left: 3rem;
 .card3image {
 width: 45%;
 margin-left: 3rem;
-margin-bottom: 6rem;
+margin-bottom: 3rem;
 }
 
 #cardtext {
