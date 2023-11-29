@@ -53,6 +53,10 @@ li a {
     text-decoration: none;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 .cover {
     background-image: url(./images/coverdark.png);
     height: 46rem;
