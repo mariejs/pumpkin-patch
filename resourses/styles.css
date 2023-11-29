@@ -26,6 +26,15 @@ h3 {
     padding-left: 1rem;
 }
 
+.logo a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.logo a:hover {
+    text-decoration: none;
+}
+
 .menu {
     display: flex;
     padding-right: 1rem;
